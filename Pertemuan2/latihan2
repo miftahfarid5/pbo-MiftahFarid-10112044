@@ -1,0 +1,36 @@
+<?php 
+class Belanja (// ini adalah class belanja
+
+public string SnanaPembeli
+
+public string $namaBarang "Sabun":
+
+public int shargaBarang=5000;
+
+public int $jumlahBarang=2;
+
+public float StotalBayar:
+
+public float $diskon;
+
+public static float Spajak = 0.02;
+
+public function _ construct (SnamaPembeli) ( $this->nama Pembeli SnamaPembeli;
+
+public function hitungTotal(); float
+Ssubtotal = $this->hargaBarang sthis->jumlahBarang;
+operator aritmatika
+return $subtotal;
+
+public function tampil Rincian (SnamaPembeli): void(
+echo "Nama Pembeli Sthis->namaPembeli. "<br>";
+echo "Nama Barang: Sthis->namaBarang. "<br>";
+echo "Harga Barang: Sthis->hargaßarang. "<br>";
+echo "Jumlah Barang:" Sthis->jumlahBarang. "<br>";
+echo "Total Bayar: $this->hitung Total()
+}
+$belanjal new Belanja (namaPembeli: "Ani");
+Sbelanjal->tampilRincian (namaPenbeli: $belanjal->namaPembeli);
+
+
+?>
